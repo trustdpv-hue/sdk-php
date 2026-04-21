@@ -8,6 +8,10 @@
     "authors": [
         { "name": "TrustDPV", "email": "support@trustdpv.com" }
     ],
+    "support": {
+        "issues": "https://github.com/trustdpv-hue/sdk-php/issues",
+        "source": "https://github.com/trustdpv-hue/sdk-php"
+    },
     "require": {
         "php": ">=7.4",
         "ext-curl": "*"
