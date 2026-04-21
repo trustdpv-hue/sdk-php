@@ -1,0 +1,18 @@
+{
+    "name": "trustdpv/sdk",
+    "description": "Official PHP SDK for the TrustDPV API — trust scores, verification, and batch checks",
+    "type": "library",
+    "keywords": ["trustdpv", "trust", "verification", "api", "sdk"],
+    "license": "MIT",
+    "homepage": "https://trustdpv.com/developers",
+    "authors": [
+        { "name": "TrustDPV", "email": "support@trustdpv.com" }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["TrustDPV.php"]
+    }
+}
